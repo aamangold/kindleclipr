@@ -1,0 +1,20 @@
+Package: kindleclipr
+Title: Manage your Kindle highlights with R
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alexandra",
+           family = "Mangold",
+           role = c("aut", "cre"),
+           email = "alexandra.a.mangold@gmail.com")
+Description: kindleclipr formats the file generated from your Kindle highlights into a tidy data frame.
+Imports: 
+    dplyr,
+    magrittr,
+    lubridate,
+    tibble,
+    purrr,
+    stringr
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
