@@ -10,6 +10,11 @@ Connect your Kindle to the computer and copy the "My Clippings.txt" file. Then u
 Note that I used the clippings output from my Kindle Paperwhite 2nd edition. File formatting may change across device editions.
 
 
+## Usage
+
+> *my_clippings <- all_my_clippings()*
+
+
 ## Credits
 
 This application uses other open source software components. Inspiration (and a lot of the regex syntax) from the **kindle_notes** package (https://github.com/RMHogervorst/kindle_notes). My Kindle's clippings file format had changed since the creation of that package.
