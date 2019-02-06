@@ -50,4 +50,4 @@ kindle_updates_gs("My Workbook Name", "My Worksheet Name")
 
 ## Credits
 
-This application uses other open source software components. Inspiration (and a lot of the regex syntax) from the **kindle_notes** package (https://github.com/RMHogervorst/kindle_notes). I created this package becaust the format of my Kindle's clippings file had changed from what was used in kindle_notes. This package also uses Jenny Bryan's googlesheets package (https://github.com/jennybc/googlesheets) to sync Kindle highlights with a Google Sheet readling list.
+This application uses other open source software components. Inspiration (and a lot of the regex syntax) from the **kindle_notes** package (https://github.com/RMHogervorst/kindle_notes). I created this package becaust the format of my Kindle's clippings file had changed from what was used in kindle_notes. This package also uses Jenny Bryan's googlesheets package (https://github.com/jennybc/googlesheets) to sync Kindle highlights with a Google Sheet reading list.
