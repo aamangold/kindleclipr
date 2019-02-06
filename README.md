@@ -15,7 +15,6 @@ Note that I used the clippings output from my Kindle Paperwhite 2nd edition. Fil
 
 ## Usage
 
-<<<<<<< HEAD
 ### Get all Kindle clippings into a data frame.
 ```
 clippings_txt <- readr::read_file(here::here("data/My Clippings.txt"))
@@ -47,11 +46,8 @@ googlesheets::gs_edit_cells(ss = "My Workbook Name", ws = "My Worksheet Name", i
 kindle_updates_gs("My Workbook Name", "My Worksheet Name")
 ```
 
-=======
-> *my_clippings <- all_my_clippings()*
->>>>>>> 21bacc2f3fe9d8012bccbebe80d2f045940ca7b2
 
 
 ## Credits
 
-This application uses other open source software components. Inspiration (and a lot of the regex syntax) from the **kindle_notes** package (https://github.com/RMHogervorst/kindle_notes). I created this package becaust the format of my Kindle's clippings file had changed from what was used in kindle_notes. This package also uses Jenny Bryan's googlesheets package (https://github.com/jennybc/googlesheets) to sync Kindle highlights with a Google Sheet reading list.
+This application uses other open source software components. Inspiration (and a lot of the regex syntax) from the **kindle_notes** package (https://github.com/RMHogervorst/kindle_notes). I created this package because the format of my Kindle's clippings file had changed from what was used in kindle_notes. This package also uses Jenny Bryan's googlesheets package (https://github.com/jennybc/googlesheets) to sync Kindle highlights with a Google Sheet reading list.
