@@ -12,7 +12,7 @@
 #' @examples
 #' clippings_txt <- readr::read_file(here::here("data/My Clippings.txt"))
 #' kindle_updates_gs(gsworkbook = "My Workbook Name", gsworksheet = "My Worksheet Name")
-#' 
+
 
 kindle_updates_gs <- function(gsworkbook, gsworksheet) {
     

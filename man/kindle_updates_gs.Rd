@@ -17,5 +17,4 @@ Pull list of highlights not already in googlesheets file. To use if you have Goo
 \examples{
 clippings_txt <- readr::read_file(here::here("data/My Clippings.txt"))
 kindle_updates_gs(gsworkbook = "My Workbook Name", gsworksheet = "My Worksheet Name")
-
 }

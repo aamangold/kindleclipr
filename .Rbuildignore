@@ -1,3 +1,4 @@
 ^LICENSE\.md$
 ^kindleclipr\.Rproj$
 ^\.Rproj\.user$
+^\.httr-oauth$
