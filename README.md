@@ -15,7 +15,6 @@ Note that I used the clippings output from my Kindle Paperwhite 2nd edition. Fil
 
 ## Usage
 
-<<<<<<< HEAD
 ### Get all Kindle clippings into a data frame.
 ```
 clippings_txt <- readr::read_file(here::here("data/My Clippings.txt"))
@@ -47,9 +46,6 @@ googlesheets::gs_edit_cells(ss = "My Workbook Name", ws = "My Worksheet Name", i
 kindle_updates_gs("My Workbook Name", "My Worksheet Name")
 ```
 
-=======
-> *my_clippings <- all_my_clippings()*
->>>>>>> 21bacc2f3fe9d8012bccbebe80d2f045940ca7b2
 
 
 ## Credits
